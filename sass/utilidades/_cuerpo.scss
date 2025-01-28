@@ -1,0 +1,75 @@
+
+/* Estilos Mobile */
+
+header{
+    background-color: $fondo-header;
+    @include flex;
+    @include padding(20px, 10px);
+    img{
+        width: 20%;
+    }
+}
+
+/* Estilos contenido principal */
+main{
+    background-color: $fondo-main;   
+    @include padding(20px, 10px);
+    flex-wrap: wrap;
+    img{
+        width: 50%;
+    }
+}
+
+/* Estilos Section*/
+
+section{
+    background-color: $fondo-header;
+    @include padding(20px, 10px);
+    flex-wrap: wrap;
+    img{
+        width: 50%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Estilos pie de página */
+
+footer{
+    background-color: $fondo-main;
+    @include flex;
+    @include padding(20px, 10px);
+    color: #B6B6B6;
+    font-size: 16px;    
+    flex-wrap: wrap;
+}
+
+/* Estilos de textos */
+
+h1{
+    color: #ffffff;
+    background-color: #0C0C0C;
+    font-size: 30px;   
+    text-align: left;
+    @include flex;
+    @include padding(20px, 10px);
+}
+
+h2{
+    color: #FFFFFF;
+    background-color: #111111;
+    font-size: 20px;    
+    text-align: left;
+    @include flex;
+    @include padding(20px, 10px);
+}
+
+p{
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    @include flex;
+    @include padding(20px, 10px);
+}

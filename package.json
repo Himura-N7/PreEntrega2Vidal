@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2vidal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himura-N7/PreEntrega2Vidal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Himura-N7/PreEntrega2Vidal/issues"
+  },
+  "homepage": "https://github.com/Himura-N7/PreEntrega2Vidal#readme",
+  "description": ""
+}

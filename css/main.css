@@ -1,97 +1,103 @@
+@charset "UTF-8";
+/* Comentario replicado */
 /* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Estilos de Header */
-
-header{
-    background-color: #F4F2F2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
-    padding-left: 10px;
+/* Estilos generales */
+body {
+  background-color: #F4F2F2;
 }
 
-header img{
-    width: 20%;
+/* Estilos Mobile */
+header {
+  background-color: #f4f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+header img {
+  width: 20%;
 }
 
-header nav ul{
-    color: 032f30;
-    list-style: none;
-    display: flex;
-    gap: 20px;
+/* Estilos contenido principal */
+main {
+  background-color: #f7f7f7;
+  padding-right: 20px;
+  padding-left: 10px;
+  flex-wrap: wrap;
+}
+main img {
+  width: 50%;
 }
 
-/* Estilos del main */
-main{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F7F7F7;
-    padding-right: 20px;
-    padding-left: 10px;
-    flex-wrap: wrap;
+/* Estilos Section*/
+section {
+  background-color: #f4f2f2;
+  padding-right: 20px;
+  padding-left: 10px;
+  flex-wrap: wrap;
+}
+section img {
+  width: 50%;
+}
+section div {
+  display: flex;
+  flex-direction: column;
 }
 
-main .textos{
-    text-align: justify;
-    padding-right: 10px;
-    justify-content: space-between;
+/* Estilos pie de página */
+footer {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: #B6B6B6;
+  font-size: 16px;
+  flex-wrap: wrap;
 }
 
-main img{
-    width: 70%;
+/* Estilos de textos */
+h1 {
+  color: #ffffff;
+  background-color: #0C0C0C;
+  font-size: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
-/* Estilos de Sección 1 */
-section{
-    background-color: #F4F2F2;
-    padding-left: 10px;
-    padding-right: 20px;
-    flex-wrap: wrap;
+h2 {
+  color: #FFFFFF;
+  background-color: #111111;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
-section div{
-    display: flex;
-    flex-direction: column;
+p {
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
-section img{
-    width: 30%;
-}
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #B6B6B6;
-    background-color: #F7F7F7;
-    font-size: 16px;
-    padding-right: 20px;
-    padding-left: 10px;
-    flex-wrap: wrap;
-}
-
-h1{
-    color: #0C0C0C;
-    font-size: 30px;   
-    text-align: left;
-}
-
-h2{
-    color: #FFFFFF;
-    background-color: #111111;
-    font-size: 20px;    
-    text-align: left;
-}
-
-p{
-    color: #000000;
-    font-size: 15px;
-    text-align: justify;
-}
+/*# sourceMappingURL=main.css.map */

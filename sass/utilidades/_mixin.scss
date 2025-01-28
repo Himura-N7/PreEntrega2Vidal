@@ -1,0 +1,13 @@
+// con parámetros
+@mixin padding ($padding-right, $padding-left) {
+    padding-right: $padding-right;
+    padding-left: $padding-left;
+
+}
+
+// sin parámetros
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
